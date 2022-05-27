@@ -86,6 +86,34 @@ main {
     height: 230px;
 }
 
+.line {
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 2s steps(40) 0.5s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 9.6em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: white;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
 .article-home {
     width: 70%;
     margin-left: 2%;
