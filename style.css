@@ -637,9 +637,22 @@ footer a {
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 430px) {
     html {
         font-size: 48%;
+    }
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav-link {
+        background-color: #f5b324;
+        color: #222222;
+        border-radius: 8px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-left: 2px;
     }
     .article-home {
         width: 100%;
@@ -654,6 +667,7 @@ footer a {
         padding-top: 20px;
         margin-top: 40px;
         margin-bottom: 20px;
+        padding-right: 30px;
     }
     .textarea_ {
         padding-right: 12px;
@@ -669,9 +683,12 @@ footer a {
     }
     footer {
         height: 30px;
+        background-color: #171717;
+        border-radius: 8px;
     }
-    footer p {
+    footer a {
         padding-top: 10px;
+        color: #f5b324;
     }
     #contato_h2 {
         display: flex;
