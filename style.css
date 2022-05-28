@@ -202,7 +202,7 @@ main {
 
 .sobre {
     display: flex;
-    height: 500px;
+    height: 840px;
     width: 100%;
     justify-content: center;
     padding: 20px 20px;
@@ -357,7 +357,7 @@ main {
 
 .skills-card {
     width: 200px;
-    height: 320px;
+    height: 230px;
     background-color: #343434;
     border-radius: 8px;
     box-shadow: 5px 8px 15px #888888;
@@ -615,6 +615,7 @@ footer a {
     }
     .sobre-mim {
         padding: 20px 0px;
+        text-align: center;
     }
     .projects-botoes a {
         padding: 10px 20px;
@@ -627,10 +628,10 @@ footer a {
     }
     .skills-card {
         width: 170px;
-        height: 300px;
+        height: 230px;
     }
     .skills-card img {
-        width: 100px;
+        width: 70px;
     }
     .paragrafo-skills {
         font-size: 16px;
@@ -670,7 +671,7 @@ footer a {
         padding-right: 30px;
     }
     .textarea_ {
-        padding-right: 12px;
+        padding-right: 15px;
     }
     .form {
         height: 200px;
@@ -699,6 +700,5 @@ footer a {
         width: 70%;
         height: 70%;
         margin-left: 30px;
-        margin-bottom: 40px;
     }
 }
