@@ -125,7 +125,7 @@ main {
 }
 
 .article-home h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #FAFAFA;
 }
@@ -645,6 +645,7 @@ footer a {
     body {
         width: 100vw;
         height: 100vh;
+        position: fixed;
     }
     .nav-link {
         background-color: #f5b324;
