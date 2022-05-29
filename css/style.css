@@ -357,7 +357,7 @@ main {
 
 .skills-card {
     width: 200px;
-    height: 230px;
+    height: 300px;
     background-color: #343434;
     border-radius: 8px;
     box-shadow: 5px 8px 15px #888888;
@@ -555,7 +555,7 @@ footer a {
         padding-left: 90px;
     }
     .conhecimentos {
-        height: 900px;
+        height: 1300px;
     }
     .skills {
         display: grid;
@@ -608,37 +608,6 @@ footer a {
 
 @media(max-width: 470px) {
     html {
-        width: 100%;
-    }
-    .sobre-mim h2 {
-        padding-left: 20px;
-    }
-    .sobre-mim {
-        padding: 20px 0px;
-        text-align: center;
-    }
-    .projects-botoes a {
-        padding: 10px 20px;
-        font-size: 15px;
-    }
-    .skills {
-        gap: 15px;
-        display: grid;
-    }
-    .skills-card {
-        width: 170px;
-        height: 230px;
-    }
-    .skills-card img {
-        width: 70px;
-    }
-    .paragrafo-skills {
-        font-size: 16px;
-    }
-}
-
-@media(max-width: 430px) {
-    html {
         font-size: 48%;
     }
     body {
@@ -669,6 +638,14 @@ footer a {
         margin-top: 40px;
         margin-bottom: 20px;
         padding-right: 30px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-card {
+        height: 300px;
     }
     .textarea_ {
         padding-right: 15px;
