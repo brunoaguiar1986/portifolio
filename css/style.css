@@ -477,6 +477,9 @@ footer a {
 }
 
 @media (max-width: 1200px) {
+    header {
+        display: none;
+    }
     .s-home {
         flex-direction: column-reverse;
         align-items: center;
@@ -630,6 +633,11 @@ footer a {
     .titulo-sobre {
         padding-top: 70px;
         padding-bottom: 100px;
+    }
+    .sobre-mim,
+    p {
+        text-align: center;
+        font-size: 7px;
     }
     .contato h2 {
         padding: 0%;
