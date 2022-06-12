@@ -29,10 +29,10 @@ sr.reveal('.projects-cards', {
 //.skills
 
 window.sr = ScrollReveal({ reset: true });
-sr.reveal('.skills-card', { duration: 1000 });
+sr.reveal('.skills', { duration: 1000 });
 
 window.sr = ScrollReveal();
-sr.reveal('.skills-card', {
+sr.reveal('.skills', {
     origin: 'left',
     distance: '70rem',
     duration: 1000,
