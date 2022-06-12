@@ -476,6 +476,12 @@ footer a {
     color: white;
 }
 
+@media (min-width: 1200px) {
+    hr {
+        display: none;
+    }
+}
+
 @media (max-width: 1200px) {
     header {
         display: none;
@@ -618,6 +624,9 @@ footer a {
         height: 100vh;
         display: block;
     }
+    #matrix {
+        height: 300px;
+    }
     .nav-link {
         background-color: #f5b324;
         color: #222222;
@@ -655,6 +664,9 @@ footer a {
     .skills-card {
         height: 300px;
     }
+    .conhecimentos {
+        height: 1500px;
+    }
     .textarea_ {
         padding-right: 15px;
     }
@@ -686,4 +698,17 @@ footer a {
         height: 70%;
         margin-left: 30px;
     }
+}
+
+#link-topo {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 10px;
+    font-size: 15px;
 }
