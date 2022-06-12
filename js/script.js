@@ -15,10 +15,10 @@ sr.reveal('.sobre', {
 //.projetos
 
 window.sr = ScrollReveal({ reset: true });
-sr.reveal('.projects-cards', { duration: 1000 });
+sr.reveal('.cards', { duration: 1000 });
 
 window.sr = ScrollReveal();
-sr.reveal('.projects-cards', {
+sr.reveal('.cards', {
     origin: 'left',
     distance: '70rem',
     duration: 1000,
@@ -29,10 +29,10 @@ sr.reveal('.projects-cards', {
 //.skills
 
 window.sr = ScrollReveal({ reset: true });
-sr.reveal('.skills', { duration: 1000 });
+sr.reveal('.skills-card', { duration: 1000 });
 
 window.sr = ScrollReveal();
-sr.reveal('.skills', {
+sr.reveal('.skills-card', {
     origin: 'left',
     distance: '70rem',
     duration: 1000,
