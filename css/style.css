@@ -217,7 +217,7 @@ main {
 
 .sobre-mim {
     max-width: 600px;
-    padding: 70px 20px;
+    
 }
 
 .sobre-mim h2 {
@@ -397,15 +397,16 @@ hr {
 }
 
 .box-contato {
-    margin-left: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .contato h2 {
     font-size: 40px;
     color: #f5b324;
-    margin: 70px 50px 30px 50px;
+    padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 .contacts-link {
