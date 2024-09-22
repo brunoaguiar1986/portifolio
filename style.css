@@ -202,7 +202,7 @@ main {
 
 .sobre {
     display: flex;
-    height: 840px;
+    height: 340px;
     width: 100%;
     justify-content: center;
     padding: 20px 20px;
